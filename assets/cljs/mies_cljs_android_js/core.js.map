@@ -1,0 +1,1 @@
+{"version":3,"file":"\/D:\/try-some-tools\/mies-cljs-android-js\/assets\/cljs\/mies_cljs_android_js\/core.js","sources":["core.cljs"],"lineCount":11,"mappings":";AAAA;;AASA,WAAA,XAACA;AAED,SAAA,TAACC,2BAEC,WAAKC;AAAL,AAAU,AAAMC,YAAWD;;AACjB,OAAM,AAAG,wBAAA,xBAACE,2CAA8CF","names":["js\/front.send","js\/front.on","msg","js\/console","js\/document.getElementById"]}

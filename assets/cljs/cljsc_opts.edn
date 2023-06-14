@@ -1,0 +1,1 @@
+{:main mies-cljs-android-js.core, :output-to "assets/cljs/mies_cljs_android_js.js", :output-dir "assets/cljs", :asset-path "../assets/cljs", :verbose true}

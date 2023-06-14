@@ -1,0 +1,28 @@
+{
+    "version": "1.0.0",
+    "name": "app",
+    "app-name": "app",
+    "package-name": "webview",
+    "project-type": "webview",
+    "icon": "./assets/icon/icon.png",
+    "dist-path": "./dist",
+    "permission": [
+        "android.permission.INTERNET"
+    ],
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start:dev": "node .",
+        "build": "androidjs build"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "androidjs": "^2.0.2",
+        "androidjs-builder": "^2.3.2"
+    },
+    "project-name": "app",
+    "theme": {
+        "fullScreen": true
+    }
+}
