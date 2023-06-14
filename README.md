@@ -1,56 +1,31 @@
-# mies-cljs-android-js
+# mies-cljs-andoroid-js
+Mies clojurescript integration into android-js framework
 
-FIXME: Write a one-line description of your library/project.
-
-## Overview
-
-FIXME: Write a paragraph about the library/project and highlight its goals.
-
-## Setup
-
-Most of the following scripts require [rlwrap](http://utopia.knoware.nl/~hlub/uck/rlwrap/) (on OS X installable via brew).
-
+## Build and debug
+### 1. Compiling clojurescript
 Build your project once in dev mode with the following script and then open `index.html` in your browser.
 
     ./scripts/build
 
-To auto build your project in dev mode:
-
+Doesn't works now, will works in future:
     ./scripts/watch
-
-To start an auto-building Node REPL:
-
+    ./scripts/release
     ./scripts/repl
 
-To get source map support in the Node REPL:
+### 2. install npm modules
+1. run `npm install`
 
-    lein npm install
-    
-To start a browser REPL:
-    
-1. Uncomment the following lines in src/mies_cljs_android_js/core.cljs:
-```clojure
-;; (defonce conn
-;;   (repl/connect "http://localhost:9000/repl"))
-```
-2. Run `./scripts/brepl`
-3. Browse to `http://localhost:9000` (you should see `Hello world!` in the web console)
-4. (back to step 3) you should now see the REPL prompt: `cljs.user=>`
-5. You may now evaluate ClojureScript statements in the browser context.
-    
-For more info using the browser as a REPL environment, see
-[this](https://github.com/clojure/clojurescript/wiki/The-REPL-and-Evaluation-Environments#browser-as-evaluation-environment).
-    
-Clean project specific out:
+### 3. Debug app in browser
+1. run `node .` for start backend emulator
+2. open ./views/index.html in browser
 
-    lein clean
-     
-Build a single release artifact with the following script and then open `index_release.html` in your browser.
-
-    ./scripts/release
+### 3. Building android apk
+1. run `npm run build`
+2. target apk will be builded in ./dist directory
 
 ## License
+MIT
 
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at your option) any later version.
+## Author
+Anatoly Starodubtsev
+tostar74@mail.ru
