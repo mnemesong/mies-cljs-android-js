@@ -1,4 +1,4 @@
-(ns mies-cljs-android-js.core)
+(ns mies-cljs-android-js.frontend)
 
 ;; (defonce conn
 ;;   (repl/connect "http://localhost:9000/repl"))

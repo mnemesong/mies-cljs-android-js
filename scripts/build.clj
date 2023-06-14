@@ -4,8 +4,8 @@
 
 (let [start (System/nanoTime)]
   (b/build "src"
-    {:main 'mies-cljs-android-js.core
-     :output-to "assets/cljs/mies_cljs_android_js.js"
+    {:main 'mies-cljs-android-js.frontend
+     :output-to "assets/cljs/frontend.js"
      :output-dir "assets/cljs"
      :asset-path "../assets/cljs"
      :verbose true})
