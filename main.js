@@ -1,5 +1,5 @@
 try{
-	require('./assets/backend-stub');
+	require('./assets/cljs-backend/backend');
 } catch (e) {
 	const back = require('androidjs').back;
 	back.on("hello from front", function(){

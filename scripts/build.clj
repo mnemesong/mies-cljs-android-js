@@ -13,7 +13,7 @@
     {:main 'mies-cljs-android-js.backend
      :output-to "assets/cljs-backend/backend.js"
      :output-dir "assets/cljs-backend"
-     :asset-path "./assets/cljs-backend"
+     :asset-path "."
      :target :nodejs
      :verbose true})
   (println "... done. Elapsed" (/ (- (System/nanoTime) start) 1e9) "seconds"))
