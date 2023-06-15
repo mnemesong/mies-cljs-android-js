@@ -7,5 +7,5 @@
   :plugins [[lein-npm "0.6.2"]]
   :npm {:dependencies [[source-map-support "0.4.0"]]}
   :source-paths ["src" "target/classes"]
-  :clean-targets [:target-path "assets/cljs-frontend" "release"]
+  :clean-targets [:target-path "assets/cljs-frontend" "assets/cljs-backend" "release"]
   :target-path "target")
