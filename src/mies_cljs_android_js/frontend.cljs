@@ -1,12 +1,5 @@
 (ns mies-cljs-android-js.frontend)
 
-;; (defonce conn
-;;   (repl/connect "http://localhost:9000/repl"))
-
-;;(enable-console-print!)
-
-;; (println "Hello world!")
-
 (js/front.send "hello from front")
 
 (js/front.on

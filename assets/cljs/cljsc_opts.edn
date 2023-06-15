@@ -1,1 +1,0 @@
-{:main mies-cljs-android-js.frontend, :output-to "assets/cljs/frontend.js", :output-dir "assets/cljs", :asset-path "../assets/cljs", :verbose true}
