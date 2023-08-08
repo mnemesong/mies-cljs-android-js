@@ -7,12 +7,14 @@ https://android-js.github.io/docs/https://android-js.github.io/docs/
 
 
 ## Build and debug
-### 1. Compiling clojurescript
+
+### 1. install npm modules
+1. run `npm install`
+
+### 2. Compiling clojurescript
 1. Compile your project once in dev mode with the following script `./scripts/build`
 2. Run pre-build script `node ./pre-build`
 
-### 2. install npm modules
-1. run `npm install`
 
 ### 3. Debug app in browser
 1. run `node .` for start backend emulator
