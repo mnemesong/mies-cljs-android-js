@@ -1,6 +1,7 @@
 # mies-cljs-andoroid-js
-Mies clojurescript integration into android-js framework
 
+# THiS PROjECT IS DEPRECATED!!!
+New version you may find at https://github.com/mnemesong/android-cljs
 
 ## Android-js API
 https://android-js.github.io/docs/https://android-js.github.io/docs/
